@@ -1,0 +1,90 @@
+body{
+    color: aliceblue;
+    background-color: rgb(5, 11, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ul{
+
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(41, 41, 206) ;
+}
+
+.center{
+    text-align: center;
+}
+
+.center1{
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+
+    text-align: center;
+}
+h2{
+
+    text-align: center;
+}
+footer img{
+    width: 25px;
+    height: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(41, 41, 206) ;
+
+
+
+}
+footer{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    margin: 2px;
+    text-align: center;
+}
+
+
+.imagem :hover > :not(:hover ){
+
+    opacity:  4;
+    transform: scale(0.5);}
+
+
+    li :hover{
+        color:rgb(38, 255, 0)
+    }
+    .conteiner{
+
+        padding: 0px 50px;
+    }
